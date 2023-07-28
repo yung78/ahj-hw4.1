@@ -1,0 +1,109 @@
+.container {
+  margin-top: 30px;
+  height: 300px;
+  width: 700px;
+
+  margin: auto;
+
+  border: solid 1px #555;
+  border-radius: 30px;
+}
+
+.pay_systems {margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.system {
+  height: 90px;
+  width: 160px;
+
+  border: solid 1px #555;
+  border-radius: 25px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.system_active {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+.mir {
+  background: no-repeat center/80% url("../img/mir.png");
+}
+
+.american_express {
+  background: no-repeat center/80% url("../img/american_express.png");
+}
+
+.visa {
+  background: no-repeat center/80% url("../img/visa.png");
+}
+
+.master_card {
+  background: no-repeat center/80% url("../img/mastercard.png");
+}
+
+.input {
+  height: 40px;
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 20px;
+
+  color: #555;
+  font: 20px sans-serif;
+
+  border: solid 1px #555;
+  border-radius: 5px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.button {
+  height: 45px;
+  background-color: rgb(50, 150, 50);
+  
+  color: bisque;
+  font: 16px sans-serif;
+
+  border: solid 1px #555;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  border: solid 1px #222;
+  background-color: rgb(51, 199, 51);
+}
+
+.answer {
+  height: 30px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 250px;
+
+  font: 16px sans-serif;
+  text-align: center;
+  line-height: 30px;
+}
+
+.valid {
+  background-color: rgb(50, 150, 50);
+  border-radius: 5px;
+  display: none;
+}
+
+.not_valid {
+  background-color: rgb(200, 50, 50);
+  border-radius: 5px;
+  display: none;
+}
+
+.valid_active {
+  display: block;
+}

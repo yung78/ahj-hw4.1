@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./payForm/img/icon.png" type="image/png">
+    <!-- <link rel="stylesheet" href="./payForm/css/style.css"> -->
+    <title>Pay form</title>
+  </head>
+  <body>
+    <main class="content">
+      <div class="container">
+        <form class="pay_form">
+          <div class="pay_systems">
+            <div class="system_box">
+              <div class="system mir"></div>
+            </div>
+            <div class="system_box">
+              <div class="system american_express"></div>
+            </div>
+            <div class="system_box">
+              <div class="system visa"></div>
+            </div>
+            <div class="system_box">
+              <div class="system master_card"></div>
+            </div>
+          </div>
+          <input class="input" type="text" placeholder="Введите номер карты">
+          <button class="button">Check to Validate</button>
+        </form>
+        <div class="validity">
+          <div class="answer valid">Success!</div>
+          <div class="answer not_valid">Failure!</div>
+        </div>
+      </div>
+    </main>
+    <!-- <script src="./payForm/js/PayForm.js"></script> -->
+  </body>
+</html>
